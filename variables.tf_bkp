@@ -1,0 +1,9 @@
+variable env {
+  
+  type = string
+  validation {
+    condition     = var.env == "prod" || var.env == "test"
+    error_message = "The env must be prod or test"
+  }
+
+}

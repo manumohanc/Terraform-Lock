@@ -1,0 +1,4 @@
+main.tf_bkp
+variables.tf_bkp
+.terraform.lock.hcl
+.terraform
