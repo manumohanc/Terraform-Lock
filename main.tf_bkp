@@ -1,8 +1,0 @@
-module "vpc" {
-
-  source      = "/home/ec2-user/vpc-module-main"
-  project     = var.project
-  environment = var.environment
-  vpc_cidr    = var.vpc_cidr
-
-}
